@@ -3,5 +3,5 @@
 
 ## 🚀 Usage  
 ```bash
-chmod +x organizer.sh  
-./organizer.sh /path/to/directory
+chmod +x script.sh  
+./script.sh /path/to/directory
