@@ -9,7 +9,7 @@ shopt -s nullglob
 declare -a files_array=()
 
 for entry in *; do
-    if [[ -f "$entry" ]] && [[ "$entry" != "$script_file_name" ]] && [[ "$entry" != "README.md" ]]; then
+    if [[ -f "$entry" ]] && [[ "$entry" != "$script_file_name" ]] && [[ "$entry" != "README.md" ]] && [[ "$entry" != "LICENSE.md" ]]; then
         files_array+=("$entry")
     fi
 done
