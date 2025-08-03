@@ -89,12 +89,15 @@ move_files_to_realated_folder() {
     done
 }
 
+file_organizer() {
+    show_current_dir
+    create_files_array
+    show_files_array
+    create_file_formats_array
+    show_file_formats_array
+    show_exicted_folder
+    create_needed_format_folders
+    move_files_to_realated_folder
+}
 
-show_current_dir
-create_files_array
-show_files_array
-create_file_formats_array
-show_file_formats_array
-show_exicted_folder
-create_needed_format_folders
-move_files_to_realated_folder
+file_organizer
